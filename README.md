@@ -6,9 +6,9 @@ Usage
 ----------------------------------
 if a verify code picture is follow this:
 
-![vefify code](http://bbs.swust.edu.cn/ckquestion.php?q=-1&t=1397314953 "vefify code")
+![vefify code](https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png "vefify code")
 
-and it's url is https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png
+and in the bbs site maybe it's url is http://bbs.swust.edu.cn/ckquestion.php?q=-1&t=1397314953
 
     >>> from bbsverify import BBSVerify
     >>> verify = BBSVerify("https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png")
