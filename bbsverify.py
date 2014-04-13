@@ -34,11 +34,12 @@ import os
 
 class BBSVerify(object):
     def __init__(self, imgUrl):
-        '''init the instance
-            every password in the number stand for a number , '=' ,'?','+' or '-',
-            when you got a list like:
-            ['13182762641040803421706', '9464204649063203301004', '4040404000314404040', '40508730416290558610', '808080808080808080808080', '978342314996744364506']
-            it is meaning '83+7=?'
+        ''' Init the instance
+            Every password in the number stand for a number , '=' ,'?','+' or '-',
+            When you got a list like:
+                ['13182762641040803421706', '9464204649063203301004', '4040404000314404040', '40508730416290558610', '808080808080808080808080', '978342314996744364506'],
+            It means '83+7=?'
+            
         '''
         self.password = {
             "754200418396642621058": "0",
