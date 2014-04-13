@@ -18,7 +18,7 @@ and in the bbs site maybe it's url is http://bbs.swust.edu.cn/ckquestion.php?q=-
 
 Depends
 ----------------------------------
--python2.7+
--requests
--PIL
--Pillow
+* python2.7+
+* requests
+* PIL
+* Pillow
