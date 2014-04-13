@@ -16,4 +16,9 @@ and in the bbs site maybe it's url is http://bbs.swust.edu.cn/ckquestion.php?q=-
     >>> print verify.exp()
     >>> 81
 
-
+Depends
+----------------------------------
+-python2.7+
+-requests
+-PIL
+-Pillow
