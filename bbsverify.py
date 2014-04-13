@@ -32,19 +32,17 @@ class BBSVerify(object):
         im.show()
         iml = im.convert("L")
         data = iml.load()
-        matix_line = {}
+        matrix_line = {}
         x_line = []
         for i in range(im.size[0]):
-            matix_line[i] = []
+            matrix_line[i] = []
             for j in range(im.size[1]):
-                if data[i,j] == 255:
-                    data[i,j] = 0
-                else:
-                    matix_line[i].append(data[i,j])
+                if data[i,j] != 255:
+                    matrix_line[i].append(data[i,j])
 
-        for line in matix_line:
-            if matix_line[line]:
-                x_line.append(reduce(lambda x,y:x+y, matix_line[line]))
+        for line in matrix_line:
+            if matrix_line[line]:
+                x_line.append(reduce(lambda x,y:x+y, matrix_line[line]))
             else:
                 x_line.append("s")
 
