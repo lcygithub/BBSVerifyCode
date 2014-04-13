@@ -13,5 +13,6 @@ and in the bbs site maybe it's url is http://bbs.swust.edu.cn/ckquestion.php?q=-
     >>> from bbsverify import BBSVerify
     >>> verify = BBSVerify("http://bbs.swust.edu.cn/ckquestion.php?q=-1&t=1397314953")
     >>> print verify.exp()
-    
+    >>> 81
+
 
