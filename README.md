@@ -22,3 +22,7 @@ Depends
 * requests
 * PIL
 * Pillow
+
+Statement
+----------------------------------
+This script just for learn, not for destroy.
