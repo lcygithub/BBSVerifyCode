@@ -12,6 +12,6 @@ and it's url is https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master
 
     >>> from bbsverify import BBSVerify
     >>> verify = BBSVerify("https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png")
-    >>> print vefify.exp()
+    >>> print verify.exp()
     
 
