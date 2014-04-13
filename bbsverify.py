@@ -67,10 +67,10 @@ class BBSVerify(object):
     def download_img(self):
         local_filename = "./codes/" + self.imgUrl.split('=')[-1]
         print "Download Image File=", local_filename
-        r = self.req.get(self.imgUrl, stream=True) # here we need to set stream = True parameter
+        r = self.req.get(self.imgUrl, stream=True)
         with open(local_filename, 'wb') as f:
             for chunk in r.iter_content(chunk_size=1024):
-                if chunk: # filter out keep-alive new chunks
+                if chunk: 
                     f.write(chunk)
                     f.flush()
             f.close()
