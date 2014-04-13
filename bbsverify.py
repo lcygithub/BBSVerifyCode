@@ -74,7 +74,3 @@ class BBSVerify(object):
                     f.flush()
             f.close()
         return local_filename
-
-if __name__ == '__main__':
-    verify = BBSVerify("http://bbs.swust.edu.cn/ckquestion.php?q=-1&t=1397314953")
-    print verify.exp()
