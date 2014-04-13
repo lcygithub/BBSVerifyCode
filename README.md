@@ -6,7 +6,7 @@ Usage
 ----------------------------------
 if a verify code picture is follow this:
 
-![vefify code](https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png "vefify code")
+![vefify code](http://bbs.swust.edu.cn/ckquestion.php?q=-1&t=1397314953 "vefify code")
 
 and it's url is https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png
 
