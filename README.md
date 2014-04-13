@@ -11,7 +11,7 @@ if a verify code picture is follow this:
 and in the bbs site maybe it's url is http://bbs.swust.edu.cn/ckquestion.php?q=-1&t=1397314953
 
     >>> from bbsverify import BBSVerify
-    >>> verify = BBSVerify("https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png")
+    >>> verify = BBSVerify("http://bbs.swust.edu.cn/ckquestion.php?q=-1&t=1397314953")
     >>> print verify.exp()
     
 
