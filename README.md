@@ -8,7 +8,7 @@ if a verify code picture is follow this:
 
 ![vefify code](https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png "vefify code")
 
-and it's url is https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png
+and it's url is 'https://raw.githubusercontent.com/lcygithub/BBSVerifyCode/master/pics/46+35.png
 
     >>> from bbsverify import BBSVerify
     >>>
