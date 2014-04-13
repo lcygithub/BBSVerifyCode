@@ -25,4 +25,4 @@ Depends
 
 Statement
 ----------------------------------
-This script just for learn, not for destroy.
+This script is just for learn, not for destroy.
